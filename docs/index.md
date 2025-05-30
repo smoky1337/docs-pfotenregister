@@ -1,17 +1,21 @@
-# Welcome to MkDocs
+# Willkommen bei PfotenRegister 🐾
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+PfotenRegister ist eine digitale Plattform für Tiertafeln, die bei der Verwaltung von Gästen, Tieren und Futterausgaben hilft. Dieses Handbuch soll dir zeigen, wie du mit wenigen Klicks die wichtigsten Aufgaben erledigst – ob als ehrenamtliche:r Helfer:in oder Administrator:in.
 
-## Commands
+## Was du brauchst
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- Einen aktuellen Webbrowser (Chrome, Firefox, Edge, Safari)
+- Eine Internetverbindung
+- Optional: einen einfachen 2D-Scanner für Gästekarten
 
-## Project layout
+## Los geht’s
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Wähle im Menü den passenden Bereich aus, um mehr über die Funktionen zu erfahren:
+
+- Gäste anlegen und verwalten
+- Tiere erfassen
+- Futterausgaben dokumentieren
+- Zahlungen eintragen (optional)
+- Einstellungen & Adminfunktionen
+
+> Du kannst dieses Handbuch jederzeit über das Menü in der App aufrufen.
