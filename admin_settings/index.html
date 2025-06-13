@@ -9,8 +9,10 @@
       
       
       
-        <link rel="prev" href="../datenschutz/">
+        <link rel="prev" href="../zahlungen/">
       
+      
+        <link rel="next" href="../datenschutz/">
       
       
       <link rel="icon" href="../assets/images/logo.png">
@@ -18,7 +20,7 @@
     
     
       
-        <title>FAQ - PfotenRegister Handbuch</title>
+        <title>Administration - PfotenRegister Handbuch</title>
       
     
     
@@ -70,7 +72,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#haufige-fragen-faq" class="md-skip">
+        <a href="#adminbereich-einstellungen" class="md-skip">
           Zum Inhalt
         </a>
       
@@ -105,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              FAQ
+              Administration
             
           </span>
         </div>
@@ -469,10 +471,32 @@
       
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../admin_settings/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Administration
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -483,6 +507,86 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Inhaltsverzeichnis
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#einstellungen-anpassen" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⚙️ Einstellungen anpassen
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#benutzerkonten-verwalten" class="md-nav__link">
+    <span class="md-ellipsis">
+      👥 Benutzerkonten verwalten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Benutzerkonten verwalten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neuen-benutzer-anlegen" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Neuen Benutzer anlegen
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzer-bearbeiten" class="md-nav__link">
+    <span class="md-ellipsis">
+      ✏️ Benutzer bearbeiten
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#benutzer-deaktivieren-oder-loschen" class="md-nav__link">
+    <span class="md-ellipsis">
+      🗑️ Benutzer deaktivieren oder löschen
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#datenimport" class="md-nav__link">
+    <span class="md-ellipsis">
+      🛠️ Datenimport
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -491,20 +595,18 @@
       
   
   
-    
   
   
-  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
         
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
@@ -520,7 +622,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_5">
             <span class="md-nav__icon md-icon"></span>
             Dokumentation
@@ -554,32 +656,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    FAQ
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
         
   
   
@@ -590,89 +670,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Inhaltsverzeichnis">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Inhaltsverzeichnis
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#wie-funktioniert-der-qr-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      🔍 Wie funktioniert der QR-Code?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#was-passiert-bei-doppelten-namen" class="md-nav__link">
-    <span class="md-ellipsis">
-      👥 Was passiert bei doppelten Namen?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#sind-meine-daten-sicher" class="md-nav__link">
-    <span class="md-ellipsis">
-      💾 Sind meine Daten sicher?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#kann-ich-das-system-an-unsere-tiertafel-anpassen" class="md-nav__link">
-    <span class="md-ellipsis">
-      💡 Kann ich das System an unsere Tiertafel anpassen?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#funktioniert-das-auch-auf-dem-tablet" class="md-nav__link">
-    <span class="md-ellipsis">
-      📱 Funktioniert das auch auf dem Tablet?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#konnen-wir-auch-papierformulare-scannen" class="md-nav__link">
-    <span class="md-ellipsis">
-      🧾 Können wir auch Papierformulare scannen?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noch-fragen" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❓ Noch Fragen?
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -712,63 +709,60 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#wie-funktioniert-der-qr-code" class="md-nav__link">
+  <a href="#einstellungen-anpassen" class="md-nav__link">
     <span class="md-ellipsis">
-      🔍 Wie funktioniert der QR-Code?
+      ⚙️ Einstellungen anpassen
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#was-passiert-bei-doppelten-namen" class="md-nav__link">
+  <a href="#benutzerkonten-verwalten" class="md-nav__link">
     <span class="md-ellipsis">
-      👥 Was passiert bei doppelten Namen?
+      👥 Benutzerkonten verwalten
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="👥 Benutzerkonten verwalten">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#neuen-benutzer-anlegen" class="md-nav__link">
+    <span class="md-ellipsis">
+      ➕ Neuen Benutzer anlegen
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#sind-meine-daten-sicher" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#benutzer-bearbeiten" class="md-nav__link">
     <span class="md-ellipsis">
-      💾 Sind meine Daten sicher?
+      ✏️ Benutzer bearbeiten
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#kann-ich-das-system-an-unsere-tiertafel-anpassen" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#benutzer-deaktivieren-oder-loschen" class="md-nav__link">
     <span class="md-ellipsis">
-      💡 Kann ich das System an unsere Tiertafel anpassen?
+      🗑️ Benutzer deaktivieren oder löschen
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#funktioniert-das-auch-auf-dem-tablet" class="md-nav__link">
-    <span class="md-ellipsis">
-      📱 Funktioniert das auch auf dem Tablet?
-    </span>
-  </a>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#konnen-wir-auch-papierformulare-scannen" class="md-nav__link">
+  <a href="#datenimport" class="md-nav__link">
     <span class="md-ellipsis">
-      🧾 Können wir auch Papierformulare scannen?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#noch-fragen" class="md-nav__link">
-    <span class="md-ellipsis">
-      ❓ Noch Fragen?
+      🛠️ Datenimport
     </span>
   </a>
   
@@ -790,22 +784,41 @@
 
 
 
-<h1 id="haufige-fragen-faq">Häufige Fragen (FAQ)</h1>
-<p>Hier findest Du Antworten auf häufig gestellte Fragen zur Nutzung von PfotenRegister.</p>
-<h2 id="wie-funktioniert-der-qr-code">🔍 Wie funktioniert der QR-Code?</h2>
-<p>Jede Gästekarte enthält einen eindeutigen QR-Code, der mit einem 2D-Scanner eingelesen werden kann. Nach dem Scan wird automatisch das Profil des Gastes aufgerufen – ohne manuelle Suche, Schreibfehler oder Sprachbarrieren.</p>
-<h2 id="was-passiert-bei-doppelten-namen">👥 Was passiert bei doppelten Namen?</h2>
-<p>PfotenRegister weist jeder Person eine eindeutige Nummer zu. Auch wenn mehrere Gäste denselben Namen tragen, ist durch die Nummer und die Gästekarte immer eine eindeutige Zuordnung möglich.</p>
-<h2 id="sind-meine-daten-sicher">💾 Sind meine Daten sicher?</h2>
-<p>Ja. Die Daten werden datenschutzkonform gespeichert und verarbeitet. Zugriff erhalten nur registrierte Benutzer:innen mit entsprechender Rolle. Zusätzlich kann das System lokal oder auf sicheren Servern betrieben werden.</p>
-<h2 id="kann-ich-das-system-an-unsere-tiertafel-anpassen">💡 Kann ich das System an unsere Tiertafel anpassen?</h2>
-<p>Ja. Im Adminbereich kannst Du viele Dinge konfigurieren – z. B. Pflichtfelder, Nummernformat, Ausgabefristen oder Benutzerrollen. Wenn Du spezielle Wünsche hast, melde Dich gerne.</p>
-<h2 id="funktioniert-das-auch-auf-dem-tablet">📱 Funktioniert das auch auf dem Tablet?</h2>
-<p>Ja. PfotenRegister läuft im Browser – egal ob auf PC, Laptop oder Tablet. Wichtig ist nur eine Internetverbindung. Die Oberfläche ist mobilfreundlich und für den Ausgabetisch optimiert.</p>
-<h2 id="konnen-wir-auch-papierformulare-scannen">🧾 Können wir auch Papierformulare scannen?</h2>
-<p>Aktuell nicht direkt – PfotenRegister ist für die digitale Erfassung gedacht. Du kannst aber vorhandene Listen importieren oder Notizen anhängen. Ein PDF-Upload-Modul ist in Planung.</p>
-<h2 id="noch-fragen">❓ Noch Fragen?</h2>
-<p>Schreib uns einfach über das Kontaktformular oder per E-Mail – wir helfen Dir gerne weiter!</p>
+<h1 id="adminbereich-einstellungen">Adminbereich &amp; Einstellungen</h1>
+<p>Als Administrator:in hast Du in PfotenRegister Zugriff auf alle zentralen Einstellungen – vom Zahlungsverhalten bis zum Nummernformat – sowie auf die Benutzerverwaltung.</p>
+<h2 id="einstellungen-anpassen">⚙️ Einstellungen anpassen</h2>
+<p>Im Adminbereich kannst Du z. B. einstellen:</p>
+<ul>
+<li>Wie viele Tage zwischen Futterausgaben liegen sollen</li>
+<li>Ob das Zahlungsmodul aktiv ist</li>
+<li>Wie Gästenummern aufgebaut sein sollen (z. B. Jahr/Monat + laufende Nummer)</li>
+</ul>
+<p>Die Änderungen gelten sofort – ohne Neustart oder Neuinstallation.</p>
+<h2 id="benutzerkonten-verwalten">👥 Benutzerkonten verwalten</h2>
+<p>PfotenRegister verwendet ein Rollensystem, um Aufgaben klar zu verteilen. Es gibt drei Rollen:</p>
+<ul>
+<li><strong>Admin</strong>: Vollzugriff auf alle Funktionen und Einstellungen  </li>
+<li><strong>Editor</strong>: Kann Daten bearbeiten, aber keine Systemeinstellungen ändern  </li>
+<li><strong>Helfer:in</strong>: Kann Gäste und Tiere aufrufen, aber keine Änderungen speichern</li>
+</ul>
+<h3 id="neuen-benutzer-anlegen">➕ Neuen Benutzer anlegen</h3>
+<ol>
+<li>Gehe in den Adminbereich unter „Benutzerverwaltung“.</li>
+<li>Klicke auf „Benutzer hinzufügen“.</li>
+<li>Gib Benutzername, Klarname und Rolle an.</li>
+<li>Vergib ein temporäres Passwort.</li>
+<li>Nach dem Speichern kann sich die Person sofort einloggen.</li>
+</ol>
+<h3 id="benutzer-bearbeiten">✏️ Benutzer bearbeiten</h3>
+<p>Du kannst jederzeit Rollen anpassen oder Namen korrigieren. Benutzernamen lassen sich ändern, sofern sie noch nicht vergeben sind.</p>
+<h3 id="benutzer-deaktivieren-oder-loschen">🗑️ Benutzer deaktivieren oder löschen</h3>
+<p>Wenn jemand das Team verlässt oder keinen Zugriff mehr benötigt:</p>
+<ul>
+<li><strong>Löschen</strong>: Der Account wird komplett entfernt. Bestehende Daten (z. B. wer etwas bearbeitet hat) bleiben erhalten.</li>
+</ul>
+<h2 id="datenimport">🛠️ Datenimport</h2>
+<p>Wenn ihr bereits mit Excel- oder CSV-Listen gearbeitet habt, könnt ihr diese über die Adminoberfläche importieren. Achte dabei auf das passende Format – Vorlagen gibt es zum Download auf der relevanten Seite.</p>
+<p>Der Import erspart viel manuelle Arbeit und hilft besonders beim Start mit dem System.</p>
 
 
 
