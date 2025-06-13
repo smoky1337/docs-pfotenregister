@@ -17,9 +17,20 @@ theme:
 
 nav:
   - Start: index.md
-  - Gäste: gaeste.md
-  - Tiere: tiere.md
-  - Futterausgabe: ausgabe.md
-  - Zahlungen: zahlungen.md
-  - Admin: admin.md
-  - FAQ: faq.md
+  - Schnellstart:
+      - Einführung: start.md
+      - Erste Schritte: erste_schritte.md
+  - Nutzung:
+      - Gäste: gaeste.md
+      - Tiere: tiere.md
+      - Futterausgabe: ausgabe.md
+      - Zahlungen: zahlungen.md
+  - Administration:
+      - Benutzerverwaltung: admin_benutzer.md
+      - Einstellungen: admin_settings.md
+  - Dokumentation:
+      - Datenschutz: datenschutz.md
+      - FAQ: faq.md
+
+meta:
+  contact: admin@pfotenregister.com
