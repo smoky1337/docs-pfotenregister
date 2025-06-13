@@ -19,15 +19,13 @@ nav:
   - Start: index.md
   - Schnellstart:
       - Einführung: start.md
-      - Erste Schritte: erste_schritte.md
   - Nutzung:
       - Gäste: gaeste.md
       - Tiere: tiere.md
       - Futterausgabe: ausgabe.md
+      - Gästekarte: gaestekarte.md
       - Zahlungen: zahlungen.md
-  - Administration:
-      - Benutzerverwaltung: admin_benutzer.md
-      - Einstellungen: admin_settings.md
+  - Administration: admin_settings.md
   - Dokumentation:
       - Datenschutz: datenschutz.md
       - FAQ: faq.md

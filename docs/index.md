@@ -19,3 +19,7 @@ Wähle im Menü den passenden Bereich aus, um mehr über die Funktionen zu erfah
 - Einstellungen & Adminfunktionen
 
 > Du kannst dieses Handbuch jederzeit über das Menü in der App aufrufen.
+
+## Kontakt
+
+Falls du Fragen oder Anmerkungen hast, melde dich gerne via Mail ([admin@pfotenregister.com](mailto:admin@pfotenregister.com))
