@@ -16,19 +16,57 @@ theme:
        name: Dunkelmodus
 
 nav:
-  - Start: index.md
-  - Schnellstart:
-      - Einführung: start.md
-  - Nutzung:
-      - Gäste: gaeste.md
-      - Tiere: tiere.md
-      - Futterausgabe: ausgabe.md
-      - Gästekarte: gaestekarte.md
-      - Zahlungen: zahlungen.md
-  - Administration: admin_settings.md
-  - Dokumentation:
-      - Datenschutz: datenschutz.md
-      - FAQ: faq.md
+  - Einführung: index.md
+
+  - Nutzung der Plattform:
+    - Erste Schritte: getting-started.md
+
+    - Gäste verwalten:
+      - Gäste ansehen: guests/view_all.md
+      - Gast ansehen: guests/view_one.md
+      - Gast registrieren: guests/create.md
+      - Gast bearbeiten: guests/edit.md
+      - Gast aktivieren/deaktivieren: guests/status.md
+      - Gast löschen: guests/delete.md
+
+    - Tiere verwalten:
+      - Tier registrieren: animals/create.md
+      - Tier bearbeiten: animals/edit.md
+      - Tier aktivieren/deaktivieren: animals/status.md
+      - Tier löschen: animals/delete.md
+
+    - Futterausgabe & Tagsystem:
+      - Futterhinweis anlegen: feeding-notes/create.md
+      - Tags verwalten: feeding-notes/tags.md
+      - Futter ausgeben: feeding/distribute.md
+      - Futterausgabe bearbeiten: feeding/edit.md
+
+    - Zahlungen:
+      - Zahlung erstellen: payments/create.md
+      - Zahlung vormerken: payments/hold.md
+      - Vormerkung bezahlen: payments/confirm.md
+      - Gegenbuchung erstellen: payments/reversal.md
+
+    - Admin-Bereich:
+      - Nutzerverwaltung:
+        - Nutzer erstellen: admin/users/create.md
+        - Nutzer bearbeiten: admin/users/edit.md
+      - Einstellungen:
+        - Seiten-Einstellungen: admin/settings/pages.md
+        - Feld-Einstellungen: admin/settings/fields.md
+        - Tags-Einstellungen: admin/settings/tags.md
+      - Dashboard: admin/dashboard.md
+      - Berichte: admin/reports.md
+
+    - Glossar: glossary.md
+
+  - Workflows:
+    - Gast anlegen: workflows/create-guest.md
+    - Tags anlegen und nutzen: workflows/tags-system.md
+    - Futterausgabe durchführen: workflows/feeding.md
+    - Zahlung erfassen: workflows/payments.md
+
+
 
 meta:
   contact: admin@pfotenregister.com

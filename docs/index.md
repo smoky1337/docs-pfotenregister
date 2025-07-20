@@ -1,25 +1,44 @@
-# Willkommen bei PfotenRegister 🐾
+# Einführung
 
-PfotenRegister ist eine digitale Plattform für Tiertafeln, die bei der Verwaltung von Gästen, Tieren und Futterausgaben hilft. Dieses Handbuch soll dir zeigen, wie du mit wenigen Klicks die wichtigsten Aufgaben erledigst – ob als ehrenamtliche:r Helfer:in oder Administrator:in.
+## Willkommen bei PfotenRegister
+PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du im Handumdrehen Gäste und ihre Tiere registrieren, Futterausgaben dokumentieren und – falls gewünscht – Zahlungen verwalten. Egal, ob du als ehrenamtliche:r Helfer:in gerade an der Ausgabetheke stehst oder als Admin Einstellungen für dein Team vornehmen möchtest - diese Dokumentation hilft dir dabei.
+
+---
 
 ## Was du brauchst
+- Einen aktuellen Webbrowser (Chrome oder Firefox (Edge oder Safari werden nicht offiziell unterstützt))  
+- Eine stabile Internetverbindung  
+- Optional: Einen einfachen 2D-Scanner für Gästekarten  
 
-- Einen aktuellen Webbrowser (Chrome, Firefox, Edge, Safari)
-- Eine Internetverbindung
-- Optional: einen einfachen 2D-Scanner für Gästekarten
+---
 
-## Los geht’s
+## Für wen ist das Handbuch?
+- **Ehrenamtliche Helfer:innen**: Alle wichtigen Schritte – von der Gästeaufnahme bis zur Futterausgabe  
+- **Nicht-technische Admins**: Nutzerverwaltung, Berichte, System-Einstellungen  
+- **Träger und Leitungen**: Schnellzugriff auf Dashboards und Reports  
 
-Wähle im Menü den passenden Bereich aus, um mehr über die Funktionen zu erfahren:
+---
 
-- Gäste anlegen und verwalten
-- Tiere erfassen
-- Futterausgaben dokumentieren
-- Zahlungen eintragen (optional)
-- Einstellungen & Adminfunktionen
+## Übersicht der Funktionen
+1. **Gäste**  
+   Gäste anlegen, bearbeiten, (de)aktivieren und löschen  
+2. **Tiere**  
+   Tierdaten hinzufügen, ändern, (de)aktivieren und löschen  
+3. **Futterausgabe & Tagsystem (optional)**  
+   Futterhinweise anlegen, Tags verwalten, Ausgabe starten und bearbeiten  
+4. **Zahlungen** *(optional)*  
+   Zahlungen erfassen, vormerken, bestätigen und Gegenbuchungen erstellen  
+5. **Admin-Bereich**  
+   Nutzer und Rollen, Seiten- und Feld-Einstellungen, Dashboard & Berichte  
 
-> Du kannst dieses Handbuch jederzeit über das Menü in der App aufrufen.
 
-## Kontakt
 
-Falls du Fragen oder Anmerkungen hast, melde dich gerne via Mail ([admin@pfotenregister.com](mailto:admin@pfotenregister.com))
+> **Tipp:** Über das Handbuch-Symbol oben rechts findest du (bald) kontextbezogene Hilfe.
+
+---
+
+## Feedback & Support
+- **Fragen?** Schreib uns gerne: [admin@pfotenregister.com](mailto:admin@pfotenregister.com)  
+- **Feature-Wünsche?** Teile uns mit, was dir fehlt oder was wir besser machen können.  
+- **Fehler melden?** Notiere bitte, was nicht funktioniert hat – Screenshots helfen oft weiter!
+
