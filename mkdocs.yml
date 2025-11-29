@@ -19,6 +19,18 @@ nav:
   - Einführung: index.md
 
   - Nutzung der Plattform:
+    - Admin-Bereich:
+      - Dashboard: admin/dashboard.md
+      - Berichte: admin/reports.md
+      - Datenimport/-export: admin/data.md
+      - Nutzerverwaltung:
+        - Nutzer erstellen: admin/users/create.md
+        - Nutzer bearbeiten: admin/users/edit.md
+      - Einstellungen:
+        - Allgemeine Einstellungen: admin/settings/pages.md
+        - Feldsichtbarkeit & Erinnerungen: admin/settings/fields.md
+        - Foodtags: admin/settings/tags.md
+
     - Erste Schritte: getting-started.md
 
     - Gäste verwalten:
@@ -28,35 +40,27 @@ nav:
       - Gast bearbeiten: guests/edit.md
       - Gast aktivieren/deaktivieren: guests/status.md
       - Gast löschen: guests/delete.md
-
+      - Dokumente/Anhänge: attachments.md
+      - Nachrichten: messages.md
     - Tiere verwalten:
       - Tier registrieren: animals/create.md
       - Tier bearbeiten: animals/edit.md
       - Tier aktivieren/deaktivieren: animals/status.md
       - Tier löschen: animals/delete.md
+      - Tierliste: animals/list.md
 
     - Futterausgabe & Tagsystem:
       - Futterhinweis anlegen: feeding-notes/create.md
       - Tags verwalten: feeding-notes/tags.md
-      - Futter ausgeben: feeding/distribute.md
-      - Futterausgabe bearbeiten: feeding/edit.md
+      - Futter ausgeben: feeding-notes/distribute.md
+      - Futterausgabe bearbeiten: feeding-notes/edit.md
 
     - Zahlungen:
       - Zahlung erstellen: payments/create.md
       - Zahlung vormerken: payments/hold.md
       - Vormerkung bezahlen: payments/confirm.md
       - Gegenbuchung erstellen: payments/reversal.md
-
-    - Admin-Bereich:
-      - Nutzerverwaltung:
-        - Nutzer erstellen: admin/users/create.md
-        - Nutzer bearbeiten: admin/users/edit.md
-      - Einstellungen:
-        - Seiten-Einstellungen: admin/settings/pages.md
-        - Feld-Einstellungen: admin/settings/fields.md
-        - Tags-Einstellungen: admin/settings/tags.md
-      - Dashboard: admin/dashboard.md
-      - Berichte: admin/reports.md
+      - Zahlungsliste: payments/list.md
 
     - Glossar: glossary.md
 
@@ -65,6 +69,7 @@ nav:
     - Tags anlegen und nutzen: workflows/tags-system.md
     - Futterausgabe durchführen: workflows/feeding.md
     - Zahlung erfassen: workflows/payments.md
+    - Dokumente hochladen: workflows/attachments.md
 
 
 

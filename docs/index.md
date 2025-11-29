@@ -1,7 +1,7 @@
 # Einführung
 
 ## Willkommen bei PfotenRegister
-PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du im Handumdrehen Gäste und ihre Tiere registrieren, Futterausgaben dokumentieren und – falls gewünscht – Zahlungen verwalten. Egal, ob du als ehrenamtliche:r Helfer:in gerade an der Ausgabetheke stehst oder als Admin Einstellungen für dein Team vornehmen möchtest - diese Dokumentation hilft dir dabei.
+PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du Gäste und ihre Tiere registrieren, Futterausgaben dokumentieren und – falls gewünscht – Zahlungen verwalten. Dieses Handbuch startet bewusst mit den Admin-Funktionen, damit die grundlegenden Einstellungen gleich richtig sitzen.
 
 ---
 
@@ -19,17 +19,17 @@ PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du im 
 
 ---
 
-## Übersicht der Funktionen
-1. **Gäste**  
-   Gäste anlegen, bearbeiten, (de)aktivieren und löschen  
-2. **Tiere**  
-   Tierdaten hinzufügen, ändern, (de)aktivieren und löschen  
-3. **Futterausgabe & Tagsystem (optional)**  
-   Futterhinweise anlegen, Tags verwalten, Ausgabe starten und bearbeiten  
-4. **Zahlungen** *(optional)*  
-   Zahlungen erfassen, vormerken, bestätigen und Gegenbuchungen erstellen  
-5. **Admin-Bereich**  
-   Nutzer und Rollen, Seiten- und Feld-Einstellungen, Dashboard & Berichte  
+## Überblick
+1. **Admin zuerst**  
+   Dashboard, Berichte, Nutzerverwaltung sowie Seiten-, Feld- und Tag-Einstellungen.
+2. **Erste Schritte**  
+   Anmelden, Oberfläche kennenlernen, mit QR-Scanner arbeiten.
+3. **Gäste & Tiere**  
+   Anlegen, bearbeiten, (de)aktivieren, löschen; Tiere hinzufügen und pflegen.
+4. **Futterausgabe & Tagsystem**  
+   Futterhinweise anlegen, Tags nutzen, Ausgaben dokumentieren und korrigieren.
+5. **Zahlungen (optional)**  
+   Zahlungen erfassen, vormerken, bestätigen, gegenbuchen.
 
 
 
@@ -41,4 +41,3 @@ PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du im 
 - **Fragen?** Schreib uns gerne: [admin@pfotenregister.com](mailto:admin@pfotenregister.com)  
 - **Feature-Wünsche?** Teile uns mit, was dir fehlt oder was wir besser machen können.  
 - **Fehler melden?** Notiere bitte, was nicht funktioniert hat – Screenshots helfen oft weiter!
-

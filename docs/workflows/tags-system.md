@@ -1,63 +1,25 @@
-<!-- Datei: docs/workflows/tags-system.md -->
+# Workflow: Tagsystem aufsetzen und nutzen
 
-# Workflow: Tagsystem anlegen und verwenden
+So aktivierst du das Tag-System, legst Standard-Tags an und nutzt sie bei Tieren und Ausgaben.
 
-Dieses Kapitel beschreibt, wie du als Admin das Tagsystem aktivierst und verwaltest und wie Editor:innen oder Admins die erstellten Tags anschließend bei Tieren und in der Futterausgabe einsetzen.
+## 1) Tagsystem aktivieren (Admin)
+1. **Admin** → **Einstellungen** → Tab **Tags**.
+2. Prüfe, ob das Tag-System aktiviert ist (Schalter an). Falls nicht, aktivieren.
 
----
+## 2) Standard-Tags anlegen (Admin)
+1. Auf **Neuen Tag anlegen** klicken.
+2. Namen vergeben (kurz, eindeutig).
+3. Speichern. Wiederholen, bis das Grundset steht (z. B. Allergie, Welpe, Senior, Diät).
 
-## 1. Tagsystem aktivieren (Admin)
+## 3) Tags zuweisen (Editor:innen & Admins)
+- **Bei Tieren**: Gast öffnen → Tab **Tiere** → Tier auswählen → Tags setzen → Speichern.
+- **Bei Ausgaben**: Beim Dialog „Futter ausgeben“ passende Tags auswählen (z. B. Winterpaket, Sonderausgabe).
+- **Bei Futterhinweisen**: Tag im Hinweis wählen, damit er bei jeder Ausgabe angezeigt wird.
 
-1. Klicke oben im Hauptmenü auf **Admin-Bereich**.  
-2. Wähle in der Seitenleiste **Einstellungen** aus.  
-3. Suche im Abschnitt **Features** nach **Tagsystem** und aktiviere den Schalter, falls er noch nicht gesetzt ist.  
-4. Wechsle auf den Tab **Foodtags**.
+## 4) Pflegen und aufräumen
+- Nicht mehr benötigte Tags im Admin-Bereich löschen oder umbenennen.
+- Saisonale Tags nach Abschluss entfernen, damit Listen schlank bleiben.
 
----
-
-## 2. Tags verwalten (Admin)
-
-1. **Neuen Tag anlegen**  
-   - Klicke auf **Neuen Tag hinzufügen**.  
-   - Gib einen eindeutigen **Namen** ein.  
-   - Wähle über den Farbpicker eine **Anzeige-Farbe** aus.  
-   - Klicke auf **Speichern**.  
-
-2. **Tag bearbeiten**  
-   - Finde in der Liste den gewünschten Tag.  
-   - Klicke auf das **Stift-Icon** (Bearbeiten).  
-   - Ändere Name oder Farbe und bestätige mit **Speichern**.  
-
-3. **Tag löschen**  
-   - Klicke in der Liste auf das **Müllkorb-Icon** des entsprechenden Tags.  
-   - Bestätige im Dialog mit **Löschen**.  
-
-   ![Screenshot: Neuen Tag anlegen](../assets/images/sc_tagsystem_admin.png)
-
----
-
-## 3. Tags einem Tier zuweisen (Editor:innen & Admins)
-
-1. Öffne im linken Menü **Gäste verwalten** und wähle einen Gast aus.  
-2. Scrolle zum Abschnitt **Tiere** und klicke auf das Tier, dem du Tags zuweisen möchtest.  
-3. Klicke im Tier-Detailbereich auf **Tags bearbeiten**.  
-4. Markiere alle Tags, die zu diesem Tier passen, oder entferne Häkchen bei nicht mehr gültigen Tags.  
-5. Klicke auf **Speichern**.  
-
-   ![Screenshot: Neuen Tag anlegen](../assets/images/sc_tagsystem_animal.png)
-
-
----
-
-## 4. Tags in der Futterausgabe sehen
-
-- Beim Anlegen oder Bearbeiten einer **Futterausgabe** werden die Tags des jeweiligen Tieres automatisch angezeigt.  
-- In der **Ausgabehistorie** siehst du ebenfalls auf einen Blick alle hinterlegten Tags.
-  
-- ![Screenshot: Neuen Tag anlegen](../assets/images/sc_tagsystem_distribute.png)
-
----
-
-> **Hinweis:**  
-> • Neue oder geänderte Tags können jederzeit in der Admin-Einstellung angepasst werden.  
-> • Tags helfen dabei können Futterhinweise ersetzen. Nutze das Feld "Futterhinweis" dann für Vorlieben oder ähnliches.
+## Hinweise
+- Kurze Namen erleichtern die Auswahl an der Ausgabe.
+- Änderungen an Tags wirken sofort; Historie behält alte Tags zur Nachvollziehbarkeit.
