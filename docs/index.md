@@ -20,7 +20,7 @@ PfotenRegister ist deine digitale Plattform für Tiertafeln. Damit kannst du Gä
 ---
 
 ## Überblick
-1. **Admin zuerst**  
+1. **Admin-Bereich**  
    Dashboard, Berichte, Nutzerverwaltung sowie Seiten-, Feld- und Tag-Einstellungen.
 2. **Erste Schritte**  
    Anmelden, Oberfläche kennenlernen, mit QR-Scanner arbeiten.
